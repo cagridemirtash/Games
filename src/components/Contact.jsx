@@ -1,12 +1,12 @@
 import React from "react";
 import imgSource from "../img/pp.jpg";
-import { Link } from "react-router-dom";
+
 function Contact(props) {
   return (
     <div className="text-light mt-3">
       <div className="row">
         <div className="col-md-6">
-          <img src={imgSource} className="img-fluid" />
+          <img src={imgSource} className="img-fluid" alt="..." />
         </div>
         <div className="col-md-6 text-center">
           <div className="row">
