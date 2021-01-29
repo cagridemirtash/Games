@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 function NotFound(props) {
   const imgSource = `https://picsum.photos/id/289/400/300`;
   return (
-    <div>
-      <img src={imgSource} alt="" />
+    <div className="mt-3">
+      <img src={imgSource} className="img-fluid" alt="" />
       <br />
       <br />
       Something Wrong.
