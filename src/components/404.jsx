@@ -5,6 +5,7 @@ function NotFound(props) {
   const imgSource = `https://picsum.photos/id/289/400/300`;
   return (
     <div>
+      {imgSource}
       <br />
       <br />
       Something Wrong.
